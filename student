@@ -1,0 +1,19 @@
+#定义一个学生类
+
+class Student():
+    age = 100
+    name='qiqi'
+
+    def test(self):
+        self.age = 10
+        self.name = 'lele'
+        print("my age is {0}".format(self.age))
+        print("my name is {0}".format(self.name))
+    def test1():
+        print("my age is {0}")
+        print("my name is {0}")
+
+stu = Student()
+
+Student.test1()
+stu.test()
